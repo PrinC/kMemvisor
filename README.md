@@ -1,6 +1,7 @@
 Introduction
 =========
 kMemvisor is a hypervisor providing software controlled memory mirroring based on hardware virtualization and static binary translation. Specifically, kMemvisor first creates a backup memory space with the same size of a specified memory for applications or virtual machines.  
+
 MemV6 is a kMemvisor-like implementation for xv6. By modifying memory management module in the OS, MemV6 can achieve high-available memory access in xv6.   
 ![workflow](pic/workflow.png)  
 The above picture shows the workflow of kMemvisor's strategy  
