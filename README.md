@@ -14,7 +14,7 @@ The above picture shows the workflow of kMemvisor's strategy
 Because of simplicity, we only implement memory redundant in MemV6.  
 MemV6
 =========
-Memv6 will create the redundant page table while the native page table is created. And when an application that has been binary translated runs, the duplicated memory write won't cause a page fualt. And the memory layout of xv6 is analyzed carefully so that there is no overlap between native address and redundant address.
+Memv6 will create the redundant page table while the native page table is created. When an application that has been binary translated runs, the duplicated memory write won't cause a page fualt. And the memory layout of xv6 is analyzed carefully so that there is no overlap between native address and redundant address.
 
 Changed Files
 ---------
