@@ -31,7 +31,7 @@ The following picture shows the overall architecture of binary translation.
 ![bt](pic/bt.png)  
 
 Evaluation
-=========
+----------
 We evaluated the performance of usertest(xv6's benchmark) between native xv6 and MemV6. This usertest contains several memory tests and the result shows that the largest overhead is still less than 60% and the average overhead is only 43%.  
 ![evaluation](pic/evaluation.png)
   
