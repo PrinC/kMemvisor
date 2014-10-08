@@ -10,6 +10,7 @@ The above picture shows the workflow of kMemvisor's strategy
 4. If a page is corrupted, a new page will be allocated to the VM.  
 5. Map the virtual address to the new page.  
 6. Copy data from the mirror address.  
+
 Because of simplicity, we only implement memory redundant in MemV6.  
 MemV6
 =========
