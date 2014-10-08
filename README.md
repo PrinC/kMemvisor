@@ -7,3 +7,7 @@ MemV6 is a kMemvisor-like implementation for xv6. By modifying memory management
 Introduction of MemV6
 =========
 Memv6 will create the redundant page table while the native page table is created. This dissertation also analyzes the memory layout in OS, and introduces the modification of it to ensure that there is no overlap between native address and redundant address.
+  
+Evaluation
+=========
+![evaluation](pic/evaluation.png)
